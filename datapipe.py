@@ -82,7 +82,7 @@ def normalize(data):
 
 def get_data():
     # SEED-IV dataset structure: eeg_feature_smooth/session/subject.mat
-    base_path = '../SEED4/eeg_feature_smooth/'
+    base_path = './data/eeg_feature_smooth/'
 
     # SEED-IV labels for 24 trials per session
     session_labels = {

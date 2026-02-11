@@ -13,7 +13,7 @@ session_labels = {
     3: np.array([1,2,2,1,3,3,3,1,1,2,1,0,2,3,3,0,2,3,0,0,2,0,1,0])
 }
 
-base_path = '../SEED4/eeg_feature_smooth/'
+base_path = './data/eeg_feature_smooth/'
 
 print('Testing SEED-IV data loading...')
 print('='*60)
