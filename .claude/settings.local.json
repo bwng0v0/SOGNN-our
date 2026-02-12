@@ -6,7 +6,16 @@
       "Bash(tee:*)",
       "Bash(tasklist:*)",
       "Bash(findstr:*)",
-      "WebSearch"
+      "WebSearch",
+      "Bash(awk:*)",
+      "Bash(timeout 10 tail:*)",
+      "Bash(exit 0)",
+      "Bash(timeout 180 cmd /c \"for /l %i in \\(1,1,60\\) do @\\(if exist C:\\\\Users\\\\ehs47\\\\Desktop\\\\SOGNN-main\\\\result\\\\SOGNN_best_fold12.pth \\(echo Model saved! && exit 0\\) else \\(timeout /t 3 /nobreak >nul\\)\\)\")",
+      "Bash(wmic:*)",
+      "Bash(powershell:*)",
+      "Bash(dir:*)",
+      "Bash(ls:*)",
+      "Bash(copy:*)"
     ]
   }
 }
